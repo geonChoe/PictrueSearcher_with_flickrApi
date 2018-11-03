@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.black.pictruesearcher.fragment.DetailFragment">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_above="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/download"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:theme="@style/MyButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="사진 저장"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

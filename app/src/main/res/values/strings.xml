@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PictrueSearcher</string>
+    <string name="search">Search</string>
+    <string name="sort_relevance">관련</string>
+    <string name="sort_date_posted_desc">업로드일</string>
+    <string name="sort_date_taken_desc">촬영 날짜</string>
+    <string name="sort_interestingness_desc">흥미롭네요</string>
+    <string name="search_hint">키워드</string>
+</resources>
